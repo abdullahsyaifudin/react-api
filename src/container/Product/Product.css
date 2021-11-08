@@ -1,0 +1,102 @@
+.header {
+    background: aquamarine;
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+
+.troley {
+    position: relative;
+}
+
+.troley img {
+    width: 30px;
+}
+
+.logo {
+    position: relative;
+}
+
+.logo img {
+    width: 30px;
+}
+
+.count {
+    background: #4e61cf;
+    padding: 10px;
+    border-radius: 50%;
+    min-width: 10px;
+    height: 10px;
+    line-height: 10px;
+    text-align: center;
+    color: white;
+    font-size: 11px;
+    position: absolute;
+    bottom: -8px;
+    left: -12px;
+}
+
+.card {
+    border: 1px solid rgb(0, 0, 0, 0.23);
+    padding: 10px;
+    width: fit-content;
+    border-radius: 4px;
+    margin: 8px;
+}
+
+.img-thub-prod {
+    position: relative;
+}
+
+.img-thub-prod img {
+    width: 100%;
+}
+
+
+.minus {
+    padding: 6px 24px;
+    border: 1px solid #3f51b5;
+    border-radius: 4px;
+    outline: none;
+    background: #4e61cf;
+    color: white;
+    font-size: 16px;
+}
+
+.minus:hover {
+    cursor: pointer;
+}
+
+.plus {
+    padding: 6px 24px;
+    border: 1px solid #3f51b5;
+    border-radius: 4px;
+    outline: none;
+    background: #4e61cf;
+    color: white;
+    font-size: 16px;
+}
+
+.plus:hover {
+    cursor: pointer;
+}
+
+.input-order {
+    margin: 8px;
+    width: fit-content;
+    padding: 6px;
+    border: 1px solid #929292;
+    border-radius: 4px;
+    outline: none;
+    background: white;
+    color: black;
+    font-size: 16px;
+}
+
+.counter {
+    padding: 8px;
+    width: fit-content;
+}
